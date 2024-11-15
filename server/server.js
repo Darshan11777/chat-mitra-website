@@ -6,7 +6,7 @@ import cors from 'cors';
 import connection from './database/db.js';
 import  feedback_router from './routes/feedback.router.js';
 import db from './database/db.js';
-import data from './aa (5).json' assert { type: 'json' }; // Add the assertion
+// import data from './aa (5).json' assert { type: 'json' }; // Add the assertion
 // Load environment variables from .env file
 dotenv.config();
 const app = express();
